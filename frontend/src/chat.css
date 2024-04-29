@@ -1,3 +1,5 @@
+
+
 .MainBox {
   height: 100vh;
   width: 100vw;
@@ -195,17 +197,29 @@
   border-radius: 50%;
   margin-left: 3px;
 }
-.result-data {
+
+.result-data{
   display: flex;
   align-items: start;
   gap: 20px;
   border-radius: 20px;
-  background-color: #1a1a1f;
-  border: 25px black solid;
+  background-color: #232225;
+
+ 
 }
-.result-data img {
+.result-data img{
   width: 4rem;
   height: 4rem;
+  background-color: #232225;;
+  margin-top: 1%;
+}
+.result-data div{
+  background-color: #232225;
+  border-radius: 15px;
+  margin-top: 1%;
+}
+.result-data *{
+  background-color: #232225;;
 }
 .loader {
   width: 100%;
